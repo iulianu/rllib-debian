@@ -1,0 +1,20 @@
+Source: rllib
+Priority: optional
+Maintainer: Iulian Dogariu <code@iuliandogariu.com>
+Build-Depends: debhelper (>= 7.0.0), qt4-qmake
+Standards-Version: 3.9.2
+Section: libs
+
+Package: librllib-dev
+Section: libdevel
+Architecture: any
+Depends: librllib10 (= ${binary:Version})
+Description: RLlib
+ A cross-platform library. Development files.
+
+Package: librllib10
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: RLlib
+ A cross platform library
