@@ -1,7 +1,7 @@
 Source: rllib
 Priority: optional
 Maintainer: Iulian Dogariu <code@iuliandogariu.com>
-Build-Depends: debhelper (>= 7.0.0), qt4-qmake
+Build-Depends: debhelper (>= 8), qt4-qmake, libqt4-dev
 Standards-Version: 3.9.2
 Section: libs
 
